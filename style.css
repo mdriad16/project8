@@ -1,0 +1,177 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@800&display=swap');
+
+
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Roboto Slab', serif;
+  
+}
+
+
+h1,h2,h3,h4,h5{
+  font-size: 30px;
+}
+
+
+p{
+  opacity: 0.4;
+}
+
+
+
+
+.section2{
+  height: 100vh;
+   
+    max-height: 950px;
+    background-image: url("pexels-marta-dzedyshko-7441761.jpg");
+  background-size: cover;
+  background-position: center center;
+  position: relative; 
+}
+
+.section2::before{
+    content:"";
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(31, 30, 30, 0.8) 50%, rgb(0,0,0,0) 50%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+.scd{
+
+ height: 150px;
+  border-radius: 115px;
+  width: 150px;
+ 
+margin: auto;
+ 
+  background-image: url("pexels-terje-sollie-299348.jpg");
+  
+background-size: cover;
+background-position: center center;
+position: relative; 
+
+background-repeat: no-repeat;
+
+
+
+
+
+margin-top: 70px;
+
+
+
+
+
+background-image: url("pexels-terje-sollie-299348.jpg");
+
+
+}
+
+.scd::before{
+  content:"";
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, rgba(0,0,0,0.8) 50%, rgb(0,0,0,0) 50%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 115px;
+}
+
+
+
+
+
+
+
+
+.scd1{
+
+  height: 150px;
+  border-radiu: 115px;
+  width: 150px;
+  margin: auto;
+ 
+ 
+  background-image: url("pexels-terje-sollie-299348.jpg");
+  
+background-size: cover;
+background-position: center center;
+position: relative; 
+
+
+
+
+
+
+}
+
+
+
+
+
+.scd1::before{
+  content:"";
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to left, rgba(0,0,0,0.4) 50%, rgb(0,0,0,0) 50%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radiu: 115px;
+}
+
+
+
+
+
+
+
+
+.section3{
+  background: linear-gradient(to right, rgba(221, 215, 215, 0.8) 50%, rgb(241, 102, 102) 50%)
+
+}
+
+.section4{
+  background: linear-gradient(to right, rgba(241, 102, 102) 50%, rgb(221, 215, 215, 0.8) 50%)
+
+}
+
+
+
+
+.tect i{
+  transform: translate(0px,-10px);
+}
+.tect{
+  transform: translate(0px,180px);
+}
+
+
+.tect1 i{
+  transform: translate(0px,-10px);
+}
+.tect1{
+  transform: translate(0px,-70px);
+}
+
+
+.mt i{
+ color: white;
+ margin: 0px 10px;
+}
+.mt{
+
+transform: translate(0px,30px);
+
+}
+
+.nav-link{
+  color: rgba(235, 226, 226, 0.9);
+}
